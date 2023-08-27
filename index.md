@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/en/a/ad/Tenderbuttons.jpg)
+![](https://upload.wikimedia.org/wikipedia/en/a/ad/Tenderbuttons.jpg?20141002085608)
 # [Arc of a Journey](https://youtu.be/8hi2K-jLgqc)
 
 Clouds float away like iron tools on the moon,
@@ -35,4 +35,4 @@ A picture with a past, a future so vast,
 
 A mnemonic game on the arc of a journey.
 
--- a beautiful sonic exploration from *[Tender Buttons](https://en.wikipedia.org/wiki/Tender_Buttons_(album))* by [Broadcast](https://en.wikipedia.org/wiki/Broadcast_(band))
+-- a beautiful dissonance exploration from *[Tender Buttons](https://en.wikipedia.org/wiki/Tender_Buttons_(album))* by [Broadcast](https://en.wikipedia.org/wiki/Broadcast_(band))

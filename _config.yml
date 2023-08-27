@@ -1,6 +1,6 @@
 title: "Arc of a Journey"
 author: "Terry"
-description: "" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "Can I see more than I'm programmed to be?" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -25,7 +25,7 @@ rss: rss
 kramdown:
   syntax_highlighter_opts:
     disable: false
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

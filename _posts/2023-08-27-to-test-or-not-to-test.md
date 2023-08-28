@@ -6,6 +6,17 @@ A prime illustration of this notion is aptly showcased in the following blog pos
 
 [Ad-hoc polymorphism erodes type-safety](https://cs-syd.eu/posts/2023-08-25-ad-hoc-polymorphism-erodes-type-safety)
 
+#### TL;DR
+```rust
+assert_eq!(
+    Some(vec![1, 2, 3]).iter().count(),
+    1
+);
+assert_eq!(
+    None::<Option<Vec<usize>>>.iter().count(),
+    0
+);
+```
 
 Assuming you finish reading the article, it is clear that the Iterator impl/instance for the `Option` type, as provided by Rust, falls short of delivering the intended semantics for the given use case. A more appropriate implementation would need to account for both the `None` variant and the `Vec` contained by the `Some` variant. However, due to Rust's orphan rule, which maintains typeclass coherence, overriding the existing implementation is not possible. One common strategy to overcome this hurdle involves employing a newtype, represented by a tuple struct, to wrap `Option<Vec<_>>`. If this is the route taken, compilation will then fail post-refactoring, as the Iterator for the newtype hasn't been implemented.
 

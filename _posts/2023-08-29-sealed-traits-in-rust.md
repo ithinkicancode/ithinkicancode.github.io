@@ -36,3 +36,9 @@ impl TodayILearned for Foo {
 ```
 
 Refer to this [API Guidelines](https://rust-lang.github.io/api-guidelines/future-proofing.html#sealed-traits-protect-against-downstream-implementations-c-sealed) for more information.
+
+For convenience, use this crate: [sealed](https://crates.io/crates/sealed).
+
+Visit the [Internals Forum](https://internals.rust-lang.org/t/sealed-traits/16797) for the RFC discussions.
+
+Still hungry for more? Here's a [definitive guide](https://predr.ag/blog/definitive-guide-to-sealed-traits-in-rust/).

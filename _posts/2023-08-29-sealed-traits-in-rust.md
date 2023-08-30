@@ -4,7 +4,7 @@ TIL🦀: Rust has "sealed trait" too!
 
 There isn't a `sealed` keyword in Rust; instead it's a pattern. While its concept is similar to Scala’s, it serves a different purpose.
 
-In Scala, the `sealed` modifier is used to prevent a class or trait from being extended externally. The most common use case is to define enums or ADTs. (Scala 3 has enums.)
+In Scala, the `sealed` modifier is used to prevent a class or trait from being extended externally. Its most common use case in Scala 2 is to define enums or ADTs. (Scala 3 has enums.)
 
 In Rust, trait is really synonymous with typeclasss in Haskell and Scala (I’m going to skip all the glory details for Scala here). And Rust enforces typeclass coherence, which can be summarized as:
 
